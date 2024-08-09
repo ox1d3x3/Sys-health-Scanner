@@ -14,12 +14,29 @@ echo  "/_/ \_\  |_|"
 echo.
 
 
-echo Version 0.2
+echo Version 0.4
 echo Github @Ox1de-crypto
 echo ========================================
 
 echo Please wait..
 echo.
+echo Gathering System Information...
+echo.
+echo Windows System Information
+echo =========================
+
+:: Get Windows Version
+echo.
+echo Windows Version:
+systeminfo | findstr /B /C:"OS Version"
+
+:: Get Windows Architecture
+echo.
+echo System Architecture:
+wmic os get OSArchitecture
+
+echo.
+
 echo System Check Started...
 echo.
 
