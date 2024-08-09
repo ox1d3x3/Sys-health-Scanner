@@ -2,7 +2,7 @@
 setlocal
 
 :: Display a starting message
-echo Starting system health checks
+echo System Health Checker for Windows
 echo Script by X1 
 echo.
 echo   __   __  __ 
