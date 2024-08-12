@@ -1,9 +1,8 @@
 @echo off
 setlocal
 
-:: Display a starting message
 echo System Health Checker for Windows
-echo Script by X1 
+echo Script by X1
 echo.
 echo   __   __  __ 
 echo  "\ \ / / /_ |"
@@ -13,11 +12,9 @@ echo   "/ . \   | |"
 echo  "/_/ \_\  |_|" 
 echo.
 
-
-echo Version 0.4
+echo Version 0.6
 echo Github @Ox1de-crypto
 echo ========================================
-
 echo Please wait..
 echo.
 echo Gathering System Information...
@@ -36,6 +33,24 @@ echo System Architecture:
 wmic os get OSArchitecture
 
 echo.
+
+echo Checking Scanner Running Status...
+echo.
+
+:: Check if the script is running as admin
+net session >nul 2>&1
+if %errorLevel% == 0 (
+    echo Status: Scanner Running as Admin.
+    echo.
+
+) else (
+    echo Status: Scanner is not running as admin. Please run this script as an administrator.
+    echo.
+    pause
+    exit /b
+)
+
+:: Display a starting message
 
 echo System Check Started...
 echo.
