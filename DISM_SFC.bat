@@ -13,7 +13,7 @@ echo  "/_/ \_\  |_|"
 echo.
 
 echo Version 0.6
-echo Github @Ox1de-crypto
+echo Github @ox1d3x3
 echo ========================================
 echo Please wait..
 echo.
