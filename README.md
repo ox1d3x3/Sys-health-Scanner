@@ -1,4 +1,4 @@
-HEVC image plugin for win 10/11
+DISM and SFC Scanner
 
 Instruction
 ----------------
