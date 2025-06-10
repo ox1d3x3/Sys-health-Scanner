@@ -7,8 +7,9 @@ title Windows System Health Scanner - by X1
 cls
 echo.
 echo ====================================================
-echo            "WINDOWS SYSTEM HEALTH & REPAIR TOOL"
-echo                  Created by X1 (ox1d3x3)
+echo            "WINDOWS SYSTEM HEALTH & REPAIR Scanner"
+echo                  Version 0.8.2
+echo                  Github: @ox1d3x3
 echo                     __   __  __ 
 echo                    "\ \ / / /_ |"
 echo                    " \ V /   | |"
@@ -17,7 +18,7 @@ echo                     "/ . \   | |"
 echo                    "/_/ \_\  |_|" 
 echo
 echo ====================================================
-echo Version 0.8.1
+echo 
 echo.
 
 :: Check Admin Privileges
