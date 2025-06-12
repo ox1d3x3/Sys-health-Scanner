@@ -1,7 +1,7 @@
 @echo off
 setlocal EnableDelayedExpansion
 color 0A
-title Windows System Health Scanner - by X1
+title Windows System Health Scanner - by X1 v0.8
 
 :: Header
 cls
